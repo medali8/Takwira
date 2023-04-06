@@ -7,7 +7,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-8">
-                <h1>Enregistrez <span class="green">100%<span> de vos <br> <span class="green">réservations en ligne</span><br>
+                <h1>Enregistrezz <span class="green">100%<span> de vos <br> <span class="green">réservations en ligne</span><br>
                 <button class="btn">Reserver</button>
                 </h1>
                  
