@@ -1,0 +1,28 @@
+nav img {
+    width:180px ;
+     height : 80px; 
+     margin-left : 20px;
+}
+.collapse .navbar-nav .nav-item a {
+    color : white ;
+    font-size: 19px;
+}
+.collapse {
+   margin-left : 30%;
+    
+}
+.line {
+    border-left: 2px solid rgb(67, 69, 67);
+    height: 40px;
+  }
+nav .butn {
+    margin-left : 130px ;
+    background-color: #C0FF37;
+    font-weight: 600 ;
+    width  :120px ;
+    height : 36px;
+    border-radius : 20px 0px 20px 20px ;
+    border: 0px solid ;
+    font-size: 19px;
+    
+}
