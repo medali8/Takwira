@@ -1,28 +1,22 @@
-nav img {
-    width:180px ;
-     height : 80px; 
-     margin-left : 20px;
+.navbar-nav a{
+    color:White;
 }
-.collapse .navbar-nav .nav-item a {
-    color : white ;
-    font-size: 19px;
+ .nav-link:hover{
+    color:#C0FF37;
+   /* text-shadow: #ffffff;*/
+    font-style: oblique;
 }
-.collapse {
-   margin-left : 30%;
-    
+
+ nav .btn:hover{
+    color: #000000;
 }
-.line {
-    border-left: 2px solid rgb(67, 69, 67);
-    height: 40px;
-  }
-nav .butn {
-    margin-left : 130px ;
+nav .btn{
     background-color: #C0FF37;
-    font-weight: 600 ;
-    width  :120px ;
-    height : 36px;
-    border-radius : 20px 0px 20px 20px ;
-    border: 0px solid ;
-    font-size: 19px;
-    
+    font-weight: 600;
+    border-radius: 20px 0px 20px 20px ;
+    margin-left : 180px;
+    width : 100px ;
+    height : 40px;
+    text-shadow: 0px 0px 2px  rgb(0, 0, 0);
+
 }
