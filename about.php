@@ -27,7 +27,11 @@
     require_once "LoginSignUp.php";
 
     ?>
-    
+     <?php
+
+require_once "services.php";
+
+?>
     <?php
 
     require_once "reviews.php";
