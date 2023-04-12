@@ -1,6 +1,4 @@
-<?php
-require "about.php";
-?>
+
 <br>
 <section id="LoginSignup">
 <div class="conatiner-fluid">
@@ -8,7 +6,7 @@ require "about.php";
         <div class="col-lg-6 col-sm-12">
             
             <p class="text-lg-center text-md-center"><a style="cursor : pointer ;"onclick="hid_function_x()">Connectez-vous</a> ou <a style="cursor : pointer ;" onclick="hid_function_y()">Créez un compte <br> pour Reserver</a></p>
-            <img src="assets/terrain-de-foot-1560x995.png" class="mx-auto d-block" ><br><br> 
+            <img src="assets//terrainFoot.png" class="mx-auto d-block" ><br><br> 
            
 
         </div>

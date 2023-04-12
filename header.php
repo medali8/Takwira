@@ -12,60 +12,47 @@
     <title>Takwira</title>
    
 </head>
-<body>
-    <!-- <header>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-2">
-                    <img src="assets/new-logo.png" style="width:180px ; height : 80px; margin-left : 20px;">
-                </div>
-                <nav class="col-7 my-4" >
-                        <a href="#"><i class="bi bi-house-door-fill"></i>&nbsp;<span style="  text-decoration: underline;">Acceuil</a>
-                        <a href="#"><i class="bi bi-info-circle-fill"></i>&nbsp;Services</a>
-                        <a href="#"><i class="bi bi-file-earmark-text-fill"></i>&nbsp;Contactez nous</a>
-                        <span class="line"></span>
-                        <img src="assets/WhatsApp_icon.png" class="frsticon"style="width:22px ; height : 22px ;">
-                        <img src="assets/Facebook_Logo_(2019).png" class="mx-1" style="width:22px ; height : 22px ;">
-                        <img src="assets/instagram-Icon.png" class="mx-1" style="width:22px ; height : 22px ;">
-                        <img src="assets/youtube-icon.png" class="mx-1" style="width:22px ; height : 22px ;">
-                        <button type="button" class="btn">Login</button>
-                </nav>
+<body> 
+      <!--  Navabar -->
+      <nav class="navbar navbar-expand-lg " style="background-color : #2C313B; ">
+        <div class="container-xl">
+          <!-- LOGO -->
+        <a href="#intro" class="navbar-brand">
+                <span class="fw-bold text-secondary">
+                         LOGO
+                </span>
+            </a>
+            <!-- Navbar LINKS --> 
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav"
+                aria-controls="main-nav" aria-expanded="false" aria-label="toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+              <!-- Navbar LINKS --> 
+              <div id="main-nav" class="collapse navbar-collapse justify-content-end align-center">
+                <ul class="navbar-nav mx-3">
+                    <li class="nav_item">
+                   <a href="#about" class="nav-link"> <i class="bi bi-house-door-fill mx-1"></i> Accueil</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#Service" class="nav-link"> <i class="bi bi-bookmarks-fill mx-1"></i>Service</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#footer" class="nav-link" > <i class="bi bi-chat-left-text-fill mx-2"></i>Contactez nous
+                        <img src="assets/WhatsApp_icon.png" class="mx-2" style="width:20px ; height : 20px ;">
+                        <img src="assets/Facebook_Logo_(2019).png" class="mx-1" style="width:20px ; height : 20px ;">
+                        <img src="assets/instagram-Icon.png" class="mx-1" style="width:20px ; height : 20px ;">
+                        <img src="assets/youtube-icon.png" class="mx-1" style="width:20px ; height : 20px ;"></a>
+                        </li>
+                    <li class="nav_item ms-2 d-none d-md-inline">
+                        <a href="#LoginSignup" class="btn mx-5 px-3" id="log">Login</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div> -->
-     <nav class="navbar navbar-expand-lg bg-dark">
-    <div class="container-fluid">
-  <img src="assets/new-logo.png" >
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav ">
-        <li class="nav-item ">
-          <a class="nav-link active"  href="#">
-          <i class="bi bi-house-door-fill"></i>&nbsp;<span style="  text-decoration: underline;">Acceuil
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">
-          <i class="bi bi-info-circle-fill"></i>&nbsp;Services
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">
-          <i class="bi bi-file-earmark-text-fill"></i>&nbsp;Contactez nous
-          </a>
-        </li>
-        </ul>
-        <span class="my-2 mx-2 line"></span>
-        <img src="assets/WhatsApp_icon.png" class="my-3"style="width:22px ; height : 22px ;">
-        <img src="assets/Facebook_Logo_(2019).png" class="mx-1 my-3" style="width:22px ; height : 22px ;">
-        <img src="assets/instagram-Icon.png" class="mx-1 my-3" style="width:22px ; height : 22px ;">
-        <img src="assets/youtube-icon.png" class="mx-1 my-3" style="width:22px ; height : 22px ;">
-        <button type="button" class="butn">Login</button>
-      
-    </div>
-  </div>
-</nav>  
+    </nav>
+    
+
+
 
 
         

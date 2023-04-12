@@ -3,7 +3,7 @@
     require "header.php"; 
     ?> 
     <section id="about">
-        <img src="assets/5205447.jpg" class="bg">  
+        <img src="assets/back.jpg" class="bg" >  
         <div class="container-fluid">
             <div class="row">
                 <div class="col-8">
@@ -12,12 +12,33 @@
                 </h1>
                  
                 </div>
-                <div class="col-4">
+               <!-- <div class="col-4">
                 <img src="assets/Sans-titre-1.PNG" class="playerpic">
-                </div>
+                </div> -->
             </div>
              
         </div>  
         
 
     </section>
+
+    <?php
+
+    require_once "LoginSignUp.php";
+
+    ?>
+     <?php
+
+require_once "services.php";
+
+?>
+    <?php
+
+    require_once "reviews.php";
+
+    ?>
+
+    <?php
+  require_once "footer.php";
+    ?>
+    
