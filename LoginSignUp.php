@@ -10,8 +10,8 @@
            
 
         </div>
-        <div class="col-lg-6 " id="login">
-                    <span class="text-center about2">Bienvenue</span><br>
+        <div class="col-lg-6 text-center" id="login">
+                    <span class="about2">Bienvenue</span><br>
                     <span>entrez vos information s'il vous avez un compte</span><br><br>
                     <form>
                         <label for="email" class="my-1">Email</label><br>
@@ -43,8 +43,8 @@
                         
                     </form>
             </div>
-            <div class="col-lg-6" id="signup" style="display: none;">
-                    <span class="text-begin about2">Bienvenue</span><br><br>
+            <div class="col-lg-6 text-center" id="signup" style="display: none;">
+                    <span class=" about2">Bienvenue</span><br><br>
                     <span>entrez vos information s'il vous avez un compte</span><br>
                     <form>
                         <div class="container">
