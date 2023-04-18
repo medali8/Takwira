@@ -2,7 +2,7 @@
 <br>
 <section id="LoginSignup">
 <div class="conatiner-fluid">
-    <div class="row">
+    <div class="row w-100">
         <div class="col-lg-6 col-sm-12">
             
             <p class="text-lg-center text-md-center"><a style="cursor : pointer ;"onclick="hid_function_x()">Connectez-vous</a> ou <a style="cursor : pointer ;" onclick="hid_function_y()">Créez un compte <br> pour Reserver</a></p>
