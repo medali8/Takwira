@@ -29,9 +29,9 @@
     ?>
      <?php
 
-require_once "services.php";
+    require_once "services.php";
 
-?>
+        ?>
     <?php
 
     require_once "reviews.php";
