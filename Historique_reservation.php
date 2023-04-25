@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./css1/style_sidebar_clientSide.css">
     
 </head>
-
+    <body>
         <div class="conatiner">
             <div class="row" >
                 <?php
@@ -24,32 +24,28 @@
                         <img src="./assets/new-logo.png" >
                     </div>
                 </div>
-                
-                <div class="row">
+                    <div class="row">
                         <div class="col-lg-12 col-sm-12 my-4 text-center"  >
                             <div class="histo_reserv_box">
                                 <p> historique des reservation </p>
                             </div>
                         </div>   
-                </div>
+                    </div>
                 <br>
                 <div class="row">
                     <!-- lehne bch nfitchiw lhistorique taa reservation taa client m database  -->
-                    <div class="col-lg-11">
-                        
-                        <div class="histo_info ">
-                             
+                    <div class="col-lg-12">
+                        <div class="histo_info ">     
                             <p> <span> 7 </span> <span> 09644972 </span> <span> med ali </span> <span> saidi </span><span> dalysaidi@esen.tn </span> <span> 21/12/2023 à 14:30 </span>
                             <a href="#" style="color : white ;"><i class="bi bi-eye"></i></a>&nbsp;&nbsp;&nbsp;
                             <a href="#" style="color : white ; border-left : 1px ;"><i class="bi bi-trash"></i></a>
                             </p>
                         </div>
-                        
                     </div>
                 </div>
                 <br>
                 <div class="row">
-                    <div class="col-lg-11">
+                    <div class="col-lg-12">
                         <div class="histo_info ">
                             <p> <span> 7 </span> <span> 09644972 </span> <span> med ali </span> <span> saidi </span><span> dalysaidi@esen.tn </span> <span> 21/12/2023 à 14:30 </span>
                             <a href="#" style="color : white ;"><i class="bi bi-eye"></i></a>&nbsp;&nbsp;&nbsp;
@@ -61,28 +57,26 @@
                 </div>
                 <br>
                 <div class="row">
-                    <div class="col-lg-11">
+                    <div class="col-lg-12">
+                        <div class="histo_info ">
+                            <p> <span> 7 </span> <span> 09644972 </span> <span> med ali </span> <span> saidi </span><span> dalysaidi@esen.tn </span> <span> 21/12/2023 à 14:30 </span>
+                            <a href="#" style="color : white ;"><i class="bi bi-eye"></i></a>&nbsp;&nbsp;&nbsp;
+                            <a href="#" style="color : white ; border-left : 1px ;"><i class="bi bi-trash"></i></a>
+                            </p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-lg-12">
                         <div class="histo_info ">
                             
                             <p> <span> 7 </span> <span> 09644972 </span> <span> med ali </span> <span> saidi </span><span> dalysaidi@esen.tn </span> <span> 21/12/2023 à 14:30 </span>
                             <a href="#" style="color : white ;"><i class="bi bi-eye"></i></a>&nbsp;&nbsp;&nbsp;
                             <a href="#" style="color : white ; border-left : 1px ;"><i class="bi bi-trash"></i></a>
                             </p>
-                        </div>
-                        
-                    </div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-lg-11">
-                        <div class="histo_info ">
-                            
-                            <p> <span> 7 </span> <span> 09644972 </span> <span> med ali </span> <span> saidi </span><span> dalysaidi@esen.tn </span> <span> 21/12/2023 à 14:30 </span>
-                            <a href="#" style="color : white ;"><i class="bi bi-eye"></i></a>&nbsp;&nbsp;&nbsp;
-                            <a href="#" style="color : white ; border-left : 1px ;"><i class="bi bi-trash"></i></a>
-                            </p>
-                        </div>
-                        
+                        </div>   
                     </div>
                 </div>
                 <br><br><br>
@@ -91,3 +85,6 @@
                         <a href="#" class="text-center"style="text-decoration:none; background-color : white ; color : black ; margin-left : 65%; border-radius : 20px; width:9rem; height : 2rem; font-weight:bold;">Supprimer tous</a>
                     </div>
                 </div>
+        </section>
+    </body>
+</html>

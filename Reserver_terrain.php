@@ -11,14 +11,14 @@
     <link rel="stylesheet" href="./css1/style_sidebar_clientSide.css">
     
 </head>
-
+    <body>
         <div class="conatiner">
             <div class="row" >
-                <?php
+            <?php
              require_once "sidebar_clientSide.php"
             ?>
             <div class="col-11">
-        <section id="reserver_terrain">
+            <section id="reserver_terrain">
                 <div class="row">
                     <div class="col-3">
                         <img src="./assets/new-logo.png" >
@@ -37,33 +37,33 @@
                     <div class="form_reservation">
                         <br>
                         <div class="col-lg-12 text-center">
-                                <form action="" method=POST >
-                                    <p><input type="text" name="cin" id="cin" placeholder="Cin"></p>
-                                    <p><input type="text" name="name" id="name" placeholder="Name"></p>
-                                    <p><input type="text" name="prenom" id="prenom" placeholder="Prenom"></p>
-                                    <p><select>
-                                        <option disabled selected>Choisissez le terrain </option>
+                            <form action="" method=POST >
+                                <p><input type="text" name="cin" id="cin" placeholder="Cin"></p>
+                                <p><input type="text" name="name" id="name" placeholder="Name"></p>
+                                <p><input type="text" name="prenom" id="prenom" placeholder="Prenom"></p>
+                                <p><select>
+                                    <option disabled selected>Choisissez le terrain </option>
                                         <!-- lehne bch nfitchiw mel database el terrainette eli mawjoudin  -->
-                                        <option>Terrain Gaddour</option>
-                                        <option>Terrain ben jaafer</option>
-                                    </select>
-                                    </p>
-                                    <p><input type="text" name="dr" id="dr" placeholder="Date de reservation"></p>
-                                    <p><input type="text" name="hr" id="hr" placeholder="l'heure de reservation"></p>
-                                    <p><input type="number" name="nbp" id="nbp" placeholder="Nombre de personne"><br></p>
-                                    <p style="color : white ;"><input type="checkbox">&nbsp;&nbsp; Je cherche un joueur</p>
-                                    <p><input type="textarea" placeholder="Anything to say ?"></p>
-                                    <div class="btns">
-                                        <input type="submit" value="Confirmer">
-                                        <input type="reset" value="reinitialiser">
-                                    </div>
-                                    <br><br>
-                                </form>
-                        </div>
-
-
-
-
-                        
+                                    <option>Terrain Gaddour</option>
+                                    <option>Terrain ben jaafer</option>
+                                </select>
+                                </p>
+                                <p><input type="text" name="dr" id="dr" placeholder="Date de reservation"></p>
+                                <p><input type="text" name="hr" id="hr" placeholder="l'heure de reservation"></p>
+                                <p><input type="number" name="nbp" id="nbp" placeholder="Nombre de personne"><br></p>
+                                <p style="color : white ;"><input type="checkbox">&nbsp;&nbsp; Je cherche un joueur</p>
+                                <p><input type="textarea" placeholder="Anything to say ?"></p>
+                                <div class="btns">
+                                    <input type="submit" value="Confirmer">
+                                    <input type="reset" value="reinitialiser">
+                                </div>
+                                <br><br>
+                            </form>
+                        </div>             
                     </div>
                 </div>
+            </body>
+        </section>
+    </div>
+</body>
+</html>

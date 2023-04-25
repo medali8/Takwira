@@ -11,26 +11,28 @@
     <link rel="stylesheet" href="./css1/style_sidebar_clientSide.css">
     
 </head>
-
+    <body>
         <div class="conatiner">
             <div class="row" >
                 <?php
              require_once "sidebar_clientSide.php"
             ?>
             <div class="col-11">
-        <section id="historique_reservation">
+            <section id="historique_reservation">
                 <div class="row">
                     <div class="col-3">
                         <img src="./assets/new-logo.png" >
                     </div>
                 </div>
-                
                 <div class="row">
-                        <div class="col-lg-12 col-sm-12 my-4 text-center"  >
-                            <div class="histo_reserv_box">
-                                <p> Modification des informations </p>
-                            </div>
-                        </div>   
+                    <div class="col-lg-12 col-sm-12 my-4 text-center"  >
+                        <div class="histo_reserv_box">
+                            <p> Modification des informations </p>
+                        </div>
+                    </div>   
                 </div>
                 <br>
-                
+            </section>
+        </div>
+    </body>
+</html> 
